@@ -38,5 +38,6 @@
 		"generate-docs": "jsdoc --configure .jsdoc.json --verbose",
 		"eslint": "eslint 'src/**/*.js'",
 		"stylelint": "stylelint 'src/**/*.css'"
-	}
+	},
+	"version": "0.0.1"
 }
