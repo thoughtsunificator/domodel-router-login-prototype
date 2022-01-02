@@ -22,6 +22,7 @@ window.addEventListener("load", function() {
 
 	const router = new Router({
 		routes,
+		basePath: window.basePath,
 		type: Router.TYPE.PATHNAME,
 		initialPath: "/login",
 		errorRoute: new Route({
