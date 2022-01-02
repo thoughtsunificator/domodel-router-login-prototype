@@ -21,9 +21,6 @@ export default {
 		format: "iife",
 		sourcemap: isDevelopment
 	},
-	watch: {
-		include: ["src/**/*"]
-	},
 	plugins: [
 		rollupWindowEnv({ envPath : ".env.json", confPath : "data/config.json" }),
 		postcss({
