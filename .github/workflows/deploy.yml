@@ -20,6 +20,7 @@ jobs:
         run: npm run build # The build command of your project
         env:
           BASE_PATH: ${{ secrets.BASE_PATH }}
+          BASE_HREF: ${{ secrets.BASE_HREF }}
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop

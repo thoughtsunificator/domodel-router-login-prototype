@@ -41,7 +41,7 @@ export default {
 				dest: "dist",
 				transform: function(contents, filename) {
 					if(filename === "index.html") {
-						return contents.toString().replace(/%{BASE_HREF}%/g, config.BASE_PATH)
+						return contents.toString().replace(/%{BASE_HREF}%/g, config.BASE_HREF)
 					}
 					return contents
 				}
