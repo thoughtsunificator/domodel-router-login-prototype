@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm run build # The build command of your project
         env:
-          BASE_PATH: /domodel-router-login-prototype
+          BASE_PATH: ${{ secrets.BASE_PATH }}
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
